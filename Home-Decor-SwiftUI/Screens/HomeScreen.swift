@@ -9,79 +9,86 @@ import SwiftUI
 
 struct HomeScreen: View {
     private let categoriesAry = ["All", "Bed", "Chair", "Sofa", "Dinning", "Kitchen", "Lamp", "Dressing"]
+    private let productAry = ["Wishbone Chair", "Mella Soft", "Diane Chair", "Milo Chair" ]
+    private let productPriceAry = ["$999", "$432", "$876", "$451"]
     @State private var selectedIndex: Int = 0
     
     var body: some View {
-        ZStack{
-            Color("Bg")
-                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            
-            ScrollView {
-                VStack(alignment: .leading){
-                    TopBarView()
-                    TagLineView()
-                        .padding()
-                    
-                    SearchAndScanView()
-                    
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack{
-                            ForEach(0 ..< categoriesAry.count, id: \.self){ i in
-                                // if index == 1 then isACtive == true
-                                CategoryView(isActive: i == selectedIndex, textStr: categoriesAry[i])
-                                    .onTapGesture {
-                                        selectedIndex = i
-                                    }
+        NavigationView {
+            ZStack{
+                Color("Bg")
+                    .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                
+                ScrollView {
+                    VStack(alignment: .leading){
+                        TopBarView()
+                        TagLineView()
+                            .padding()
+                        
+                        SearchAndScanView()
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack{
+                                ForEach(0 ..< categoriesAry.count, id: \.self){ i in
+                                    // if index == 1 then isACtive == true
+                                    CategoryView(isActive: i == selectedIndex, textStr: categoriesAry[i])
+                                        .onTapGesture {
+                                            selectedIndex = i
+                                        }
+                                }
                             }
+                            .padding()
                         }
-                        .padding()
-                    }
-                    
-                    Text("Popular")
-                        .font(.custom("PlayfairDisplay-Regular", size: 24))
-                        .padding(.horizontal)
-                    
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack {
-                            ForEach( 0 ..< 4) { index in
-                                ProductCardView(productImage: Image("chair_\(index + 1)"), containerSize: 210)
+                        
+                        Text("Popular")
+                            .font(.custom("PlayfairDisplay-Regular", size: 24))
+                            .padding(.horizontal)
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack {
+                                ForEach( 0 ..< 4) { index in
+                                    NavigationLink(destination: ProductDetailsScreen(),
+                                                   label: { ProductCardView(productImage: Image("chair_\(index + 1)"), containerSize: 210, productName: productAry[index], productPrice: productPriceAry[index])})
+                                    .navigationBarHidden(true)
+                                    .foregroundColor(.black)
+                                }
+                                .padding(.trailing)
                             }
-                            .padding(.trailing)
+                            .padding(.leading)
                         }
-                        .padding(.leading)
-                    }
-                    
-                    Text("Best")
-                        .font(.custom("PlayfairDisplay-Regular", size: 24))
-                        .padding(.horizontal)
-                        .padding(.top)
-                    
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack {
-                            ForEach( 0 ..< 4) { index in
-                                ProductCardView(productImage: Image("chair_\(index + 1)"), containerSize: 180)
+                        
+                        Text("Best")
+                            .font(.custom("PlayfairDisplay-Regular", size: 24))
+                            .padding(.horizontal)
+                            .padding(.top)
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack {
+                                ForEach( 0 ..< 4) { index in
+                                    ProductCardView(productImage: Image("chair_\(index + 1)"), containerSize: 180,productName: productAry[index], productPrice: productPriceAry[index])
+                                }
+                                .padding(.trailing)
                             }
-                            .padding(.trailing)
+                            .padding(.leading)
                         }
-                        .padding(.leading)
                     }
                 }
+                
+                //Custom Bottom Bar
+                
+                HStack{
+                    BottomBarItemView(itemImage: Image("Home"), action: {})
+                    BottomBarItemView(itemImage: Image("favIcon"), action: {})
+                    BottomBarItemView(itemImage: Image("cartIcon"), action: {})
+                    BottomBarItemView(itemImage: Image("User"), action: {})
+                }
+                .padding()
+                .background(Color.white)
+                .clipShape(Capsule())
+                .padding(.horizontal)
+                .shadow(color: Color.black.opacity(0.15), radius: 8,x:2, y: 6)
+                .frame(maxHeight: .infinity, alignment:  .bottom )
             }
-            
-            //Custom Bottom Bar
-            
-            HStack{
-                BottomBarItemView(itemImage: Image("Home"), action: {})
-                BottomBarItemView(itemImage: Image("favIcon"), action: {})
-                BottomBarItemView(itemImage: Image("cartIcon"), action: {})
-                BottomBarItemView(itemImage: Image("User"), action: {})
-            }
-            .padding()
-            .background(Color.white)
-            .clipShape(Capsule())
-            .padding(.horizontal)
-            .shadow(color: Color.black.opacity(0.15), radius: 8,x:2, y: 6)
-            .frame(maxHeight: .infinity, alignment:  .bottom )
         }
     }
 }
@@ -103,7 +110,7 @@ struct TopBarView: View {
             Spacer()
             
             Button(action:{ }){
-                Image("Profile")
+                Image("userImage")
                     .resizable()
                     .frame(width: 42, height: 42)
                     .cornerRadius(10.0)
@@ -173,6 +180,9 @@ let textStr: String
 struct ProductCardView: View {
     let productImage : Image
     let containerSize: CGFloat
+    let productName: String
+    let productPrice: String
+    
     var body: some View {
         VStack{
             productImage
@@ -180,7 +190,7 @@ struct ProductCardView: View {
                 .frame(width: containerSize, height: 200 * (containerSize/210))
                 .cornerRadius(20.0)
             
-            Text("Canada Wood Chair")
+            Text(productName)
                 .font(.title3)
                 .fontWeight(.bold)
             
@@ -192,7 +202,7 @@ struct ProductCardView: View {
                 
                 Spacer()
                 
-                Text("$78920.0")
+                Text(productPrice)
                     .font(.title3)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
             }
