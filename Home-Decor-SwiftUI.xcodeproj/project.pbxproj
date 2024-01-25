@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924EAA8A2B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAA892B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift */; };
+		924EAA8C2B62F8BB008BDE53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAA8B2B62F8BB008BDE53 /* ContentView.swift */; };
+		924EAA8E2B62F8BE008BDE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924EAA8D2B62F8BE008BDE53 /* Assets.xcassets */; };
+		924EAA912B62F8BE008BDE53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924EAA902B62F8BE008BDE53 /* Preview Assets.xcassets */; };
+		924EAA9B2B62F8BE008BDE53 /* Home_Decor_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAA9A2B62F8BE008BDE53 /* Home_Decor_SwiftUITests.swift */; };
+		924EAAA52B62F8BF008BDE53 /* Home_Decor_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAAA42B62F8BF008BDE53 /* Home_Decor_SwiftUIUITests.swift */; };
+		924EAAA72B62F8BF008BDE53 /* Home_Decor_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAAA62B62F8BF008BDE53 /* Home_Decor_SwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		924EAA972B62F8BE008BDE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924EAA7E2B62F8BB008BDE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924EAA852B62F8BB008BDE53;
+			remoteInfo = "Home-Decor-SwiftUI";
+		};
+		924EAAA12B62F8BF008BDE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924EAA7E2B62F8BB008BDE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924EAA852B62F8BB008BDE53;
+			remoteInfo = "Home-Decor-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		924EAA862B62F8BB008BDE53 /* Home-Decor-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home-Decor-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		924EAA892B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Decor_SwiftUIApp.swift; sourceTree = "<group>"; };
+		924EAA8B2B62F8BB008BDE53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		924EAA8D2B62F8BE008BDE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		924EAA902B62F8BE008BDE53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		924EAA962B62F8BE008BDE53 /* Home-Decor-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home-Decor-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		924EAA9A2B62F8BE008BDE53 /* Home_Decor_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Decor_SwiftUITests.swift; sourceTree = "<group>"; };
+		924EAAA02B62F8BF008BDE53 /* Home-Decor-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home-Decor-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		924EAAA42B62F8BF008BDE53 /* Home_Decor_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Decor_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		924EAAA62B62F8BF008BDE53 /* Home_Decor_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Decor_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924EAA832B62F8BB008BDE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924EAA932B62F8BE008BDE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924EAA9D2B62F8BF008BDE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		924EAA7D2B62F8BB008BDE53 = {
+			isa = PBXGroup;
+			children = (
+				924EAA882B62F8BB008BDE53 /* Home-Decor-SwiftUI */,
+				924EAA992B62F8BE008BDE53 /* Home-Decor-SwiftUITests */,
+				924EAAA32B62F8BF008BDE53 /* Home-Decor-SwiftUIUITests */,
+				924EAA872B62F8BB008BDE53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924EAA872B62F8BB008BDE53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924EAA862B62F8BB008BDE53 /* Home-Decor-SwiftUI.app */,
+				924EAA962B62F8BE008BDE53 /* Home-Decor-SwiftUITests.xctest */,
+				924EAAA02B62F8BF008BDE53 /* Home-Decor-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924EAA882B62F8BB008BDE53 /* Home-Decor-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				924EAA892B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift */,
+				924EAA8B2B62F8BB008BDE53 /* ContentView.swift */,
+				924EAA8D2B62F8BE008BDE53 /* Assets.xcassets */,
+				924EAA8F2B62F8BE008BDE53 /* Preview Content */,
+			);
+			path = "Home-Decor-SwiftUI";
+			sourceTree = "<group>";
+		};
+		924EAA8F2B62F8BE008BDE53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				924EAA902B62F8BE008BDE53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		924EAA992B62F8BE008BDE53 /* Home-Decor-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				924EAA9A2B62F8BE008BDE53 /* Home_Decor_SwiftUITests.swift */,
+			);
+			path = "Home-Decor-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		924EAAA32B62F8BF008BDE53 /* Home-Decor-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				924EAAA42B62F8BF008BDE53 /* Home_Decor_SwiftUIUITests.swift */,
+				924EAAA62B62F8BF008BDE53 /* Home_Decor_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = "Home-Decor-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924EAA852B62F8BB008BDE53 /* Home-Decor-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924EAAAA2B62F8BF008BDE53 /* Build configuration list for PBXNativeTarget "Home-Decor-SwiftUI" */;
+			buildPhases = (
+				924EAA822B62F8BB008BDE53 /* Sources */,
+				924EAA832B62F8BB008BDE53 /* Frameworks */,
+				924EAA842B62F8BB008BDE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home-Decor-SwiftUI";
+			productName = "Home-Decor-SwiftUI";
+			productReference = 924EAA862B62F8BB008BDE53 /* Home-Decor-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		924EAA952B62F8BE008BDE53 /* Home-Decor-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924EAAAD2B62F8BF008BDE53 /* Build configuration list for PBXNativeTarget "Home-Decor-SwiftUITests" */;
+			buildPhases = (
+				924EAA922B62F8BE008BDE53 /* Sources */,
+				924EAA932B62F8BE008BDE53 /* Frameworks */,
+				924EAA942B62F8BE008BDE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924EAA982B62F8BE008BDE53 /* PBXTargetDependency */,
+			);
+			name = "Home-Decor-SwiftUITests";
+			productName = "Home-Decor-SwiftUITests";
+			productReference = 924EAA962B62F8BE008BDE53 /* Home-Decor-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		924EAA9F2B62F8BF008BDE53 /* Home-Decor-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924EAAB02B62F8BF008BDE53 /* Build configuration list for PBXNativeTarget "Home-Decor-SwiftUIUITests" */;
+			buildPhases = (
+				924EAA9C2B62F8BF008BDE53 /* Sources */,
+				924EAA9D2B62F8BF008BDE53 /* Frameworks */,
+				924EAA9E2B62F8BF008BDE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924EAAA22B62F8BF008BDE53 /* PBXTargetDependency */,
+			);
+			name = "Home-Decor-SwiftUIUITests";
+			productName = "Home-Decor-SwiftUIUITests";
+			productReference = 924EAAA02B62F8BF008BDE53 /* Home-Decor-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924EAA7E2B62F8BB008BDE53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					924EAA852B62F8BB008BDE53 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					924EAA952B62F8BE008BDE53 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 924EAA852B62F8BB008BDE53;
+					};
+					924EAA9F2B62F8BF008BDE53 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 924EAA852B62F8BB008BDE53;
+					};
+				};
+			};
+			buildConfigurationList = 924EAA812B62F8BB008BDE53 /* Build configuration list for PBXProject "Home-Decor-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 924EAA7D2B62F8BB008BDE53;
+			productRefGroup = 924EAA872B62F8BB008BDE53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924EAA852B62F8BB008BDE53 /* Home-Decor-SwiftUI */,
+				924EAA952B62F8BE008BDE53 /* Home-Decor-SwiftUITests */,
+				924EAA9F2B62F8BF008BDE53 /* Home-Decor-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924EAA842B62F8BB008BDE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924EAA912B62F8BE008BDE53 /* Preview Assets.xcassets in Resources */,
+				924EAA8E2B62F8BE008BDE53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924EAA942B62F8BE008BDE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924EAA9E2B62F8BF008BDE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924EAA822B62F8BB008BDE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924EAA8C2B62F8BB008BDE53 /* ContentView.swift in Sources */,
+				924EAA8A2B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924EAA922B62F8BE008BDE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924EAA9B2B62F8BE008BDE53 /* Home_Decor_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924EAA9C2B62F8BF008BDE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924EAAA52B62F8BF008BDE53 /* Home_Decor_SwiftUIUITests.swift in Sources */,
+				924EAAA72B62F8BF008BDE53 /* Home_Decor_SwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		924EAA982B62F8BE008BDE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924EAA852B62F8BB008BDE53 /* Home-Decor-SwiftUI */;
+			targetProxy = 924EAA972B62F8BE008BDE53 /* PBXContainerItemProxy */;
+		};
+		924EAAA22B62F8BF008BDE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924EAA852B62F8BB008BDE53 /* Home-Decor-SwiftUI */;
+			targetProxy = 924EAAA12B62F8BF008BDE53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		924EAAA82B62F8BF008BDE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		924EAAA92B62F8BF008BDE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924EAAAB2B62F8BF008BDE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Home-Decor-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q8PK53YFD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reetD.Home-Decor-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		924EAAAC2B62F8BF008BDE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Home-Decor-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q8PK53YFD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reetD.Home-Decor-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		924EAAAE2B62F8BF008BDE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q8PK53YFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reetD.Home-Decor-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home-Decor-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Home-Decor-SwiftUI";
+			};
+			name = Debug;
+		};
+		924EAAAF2B62F8BF008BDE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q8PK53YFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reetD.Home-Decor-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home-Decor-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Home-Decor-SwiftUI";
+			};
+			name = Release;
+		};
+		924EAAB12B62F8BF008BDE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q8PK53YFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reetD.Home-Decor-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Home-Decor-SwiftUI";
+			};
+			name = Debug;
+		};
+		924EAAB22B62F8BF008BDE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q8PK53YFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reetD.Home-Decor-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Home-Decor-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924EAA812B62F8BB008BDE53 /* Build configuration list for PBXProject "Home-Decor-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924EAAA82B62F8BF008BDE53 /* Debug */,
+				924EAAA92B62F8BF008BDE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924EAAAA2B62F8BF008BDE53 /* Build configuration list for PBXNativeTarget "Home-Decor-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924EAAAB2B62F8BF008BDE53 /* Debug */,
+				924EAAAC2B62F8BF008BDE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924EAAAD2B62F8BF008BDE53 /* Build configuration list for PBXNativeTarget "Home-Decor-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924EAAAE2B62F8BF008BDE53 /* Debug */,
+				924EAAAF2B62F8BF008BDE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924EAAB02B62F8BF008BDE53 /* Build configuration list for PBXNativeTarget "Home-Decor-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924EAAB12B62F8BF008BDE53 /* Debug */,
+				924EAAB22B62F8BF008BDE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924EAA7E2B62F8BB008BDE53 /* Project object */;
+}
