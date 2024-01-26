@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		921F204B2B633DA600E60112 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F204A2B633DA600E60112 /* HomeScreen.swift */; };
 		924EAA8A2B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAA892B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift */; };
 		924EAA8C2B62F8BB008BDE53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAA8B2B62F8BB008BDE53 /* ContentView.swift */; };
 		924EAA8E2B62F8BE008BDE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924EAA8D2B62F8BE008BDE53 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		924EAA9B2B62F8BE008BDE53 /* Home_Decor_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAA9A2B62F8BE008BDE53 /* Home_Decor_SwiftUITests.swift */; };
 		924EAAA52B62F8BF008BDE53 /* Home_Decor_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAAA42B62F8BF008BDE53 /* Home_Decor_SwiftUIUITests.swift */; };
 		924EAAA72B62F8BF008BDE53 /* Home_Decor_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EAAA62B62F8BF008BDE53 /* Home_Decor_SwiftUIUITestsLaunchTests.swift */; };
+		924EAAB62B62F91C008BDE53 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 924EAAB42B62F91B008BDE53 /* PlayfairDisplay-Bold.ttf */; };
+		924EAAB72B62F91C008BDE53 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 924EAAB52B62F91C008BDE53 /* PlayfairDisplay-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		921F204A2B633DA600E60112 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		924EAA862B62F8BB008BDE53 /* Home-Decor-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home-Decor-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		924EAA892B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Decor_SwiftUIApp.swift; sourceTree = "<group>"; };
 		924EAA8B2B62F8BB008BDE53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,9 @@
 		924EAAA02B62F8BF008BDE53 /* Home-Decor-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home-Decor-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		924EAAA42B62F8BF008BDE53 /* Home_Decor_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Decor_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		924EAAA62B62F8BF008BDE53 /* Home_Decor_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Decor_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		924EAAB42B62F91B008BDE53 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		924EAAB52B62F91C008BDE53 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		924EAAE62B62FB68008BDE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		921F20492B633D9200E60112 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				921F204A2B633DA600E60112 /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		924EAA7D2B62F8BB008BDE53 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +109,9 @@
 		924EAA882B62F8BB008BDE53 /* Home-Decor-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				921F20492B633D9200E60112 /* Screens */,
+				924EAAE62B62FB68008BDE53 /* Info.plist */,
+				924EAAB32B62F8D2008BDE53 /* Fonts */,
 				924EAA892B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift */,
 				924EAA8B2B62F8BB008BDE53 /* ContentView.swift */,
 				924EAA8D2B62F8BE008BDE53 /* Assets.xcassets */,
@@ -125,6 +143,15 @@
 				924EAAA62B62F8BF008BDE53 /* Home_Decor_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "Home-Decor-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		924EAAB32B62F8D2008BDE53 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				924EAAB42B62F91B008BDE53 /* PlayfairDisplay-Bold.ttf */,
+				924EAAB52B62F91C008BDE53 /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924EAAB72B62F91C008BDE53 /* PlayfairDisplay-Regular.ttf in Resources */,
+				924EAAB62B62F91C008BDE53 /* PlayfairDisplay-Bold.ttf in Resources */,
 				924EAA912B62F8BE008BDE53 /* Preview Assets.xcassets in Resources */,
 				924EAA8E2B62F8BE008BDE53 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +288,7 @@
 			files = (
 				924EAA8C2B62F8BB008BDE53 /* ContentView.swift in Sources */,
 				924EAA8A2B62F8BB008BDE53 /* Home_Decor_SwiftUIApp.swift in Sources */,
+				921F204B2B633DA600E60112 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +455,7 @@
 				DEVELOPMENT_TEAM = 8Q8PK53YFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Home-Decor-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +485,7 @@
 				DEVELOPMENT_TEAM = 8Q8PK53YFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Home-Decor-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
